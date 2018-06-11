@@ -1,0 +1,59 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family: 'Cinzel' , serif;
+}
+
+hr {
+	max-width: 65px;
+	border-width: 3px;
+	border-color: #552900;
+}
+
+header.archetype {
+	background-position: center; 
+	background-image: url("Archetype_new_boxes.jpg");
+	background-size: cover;
+	height: 100%;
+
+}
+strong{
+	background-color: rgba(255, 255, 255, .55);
+	border-radius: 5px;
+}
+
+header.archetype hr {
+	margin-top: 300px;
+	margin-bottom: 30px;
+}
+
+header.archetype h1{
+	font-size: 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	text-transform: uppercase;
+	border-radius: 300px;
+	font-family: 'Cinzel', serif;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn-primary {
+	background-color: #804815;
+	border-color: #552900;
+}
+
+.btn-primary:hover {
+	background-color: #552900;
+	border-color: #FFD3AA;
+	border-width: 5px;
+	cursor: pointer;
+}
